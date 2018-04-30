@@ -22,6 +22,7 @@ def rot13(text):
     #         new_string += " "
 
     for i in range(len(text)):
+        # text = "lbh zhfg hayrnea jung lbh unir yrnearq"
 
         if text[i] != " ":
 

@@ -3,6 +3,7 @@ from dedupe import dedupe
 from leetspeak import leetspeak
 from multiply import multiply
 from smallest_number import smallest_number
+from longvowel import longvowel
 
 text = "lbh zhfg hayrnea jung lbh unir yrnearq"
 print("Converting this ROT13 encoded text: %s" % text)
@@ -28,4 +29,9 @@ print()
 list_of_numbers = [1, 45, 62, 0, -1]
 print("Finding smallest number in this list: %s" % list_of_numbers)
 print(smallest_number(list_of_numbers))
+print()
+
+text = "scoot the door open for the cheese"
+print("Converting this string to long vowels: %s" % text)
+print(longvowel(text))
 print()

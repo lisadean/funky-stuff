@@ -15,6 +15,7 @@
 # print(new_string)
 
 def leetspeak(text_to_convert):
+    # text_to_convert = "elite speak"
     
     original = "AEGIOST"
     translation = "4361057"
